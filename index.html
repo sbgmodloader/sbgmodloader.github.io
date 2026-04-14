@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Battle Golf Mod Loader</title>
+    <meta name="description" content="The complete modding solution for Super Battle Golf - Create and share custom maps, game modes, characters, and items">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1A1D23 0%, #2C313D 100%);
+            color: #E8E9ED;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 900px;
+        }
+        h1 {
+            font-size: 3.5em;
+            color: #4CAF50;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.3em;
+            color: #9CA3AF;
+            margin-bottom: 40px;
+        }
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            width: 100%;
+            margin: 40px 0;
+        }
+        .card {
+            background: #242830;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            padding: 30px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            background: #2C313D;
+            box-shadow: 0 8px 15px rgba(76, 175, 80, 0.3);
+        }
+        .card h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+        .card p {
+            color: #9CA3AF;
+            line-height: 1.6;
+        }
+        .github-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background: #2196F3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .github-link:hover {
+            background: #1976D2;
+        }
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            text-align: center;
+            color: #6B7280;
+            font-size: 0.9em;
+        }
+        .emoji { font-size: 2em; display: block; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>⛳ Super Battle Golf Mod Loader</h1>
+        <p class="subtitle">The complete modding ecosystem for Super Battle Golf</p>
+    </header>
+
+    <div class="links">
+        <a href="https://mods.sbgmodloader.com" class="card">
+            <span class="emoji">🌐</span>
+            <h2>Browse Mods</h2>
+            <p>Explore and download community-created mods. Maps, game modes, characters, and more!</p>
+        </a>
+
+        <a href="https://github.com/sbgmodloader/launcher/releases" class="card">
+            <span class="emoji">🚀</span>
+            <h2>Download Launcher</h2>
+            <p>Get the official mod launcher with one-click installation and built-in mod browser.</p>
+        </a>
+
+        <a href="https://sdk.sbgmodloader.com" class="card">
+            <span class="emoji">📦</span>
+            <h2>SDK Documentation</h2>
+            <p>Create your own mods with our complete SDK, examples, and API reference.</p>
+        </a>
+
+        <a href="https://maps.sbgmodloader.com" class="card">
+            <span class="emoji">🗺️</span>
+            <h2>Map Maker Tool</h2>
+            <p>Visual Unity-based editor for creating custom golf courses with ease.</p>
+        </a>
+
+        <a href="https://docs.sbgmodloader.com" class="card">
+            <span class="emoji">📚</span>
+            <h2>Documentation</h2>
+            <p>Complete guides for mod loader installation, API usage, and troubleshooting.</p>
+        </a>
+
+        <a href="https://github.com/sbgmodloader" class="card">
+            <span class="emoji">💻</span>
+            <h2>GitHub Organization</h2>
+            <p>View source code, contribute, report issues, and join the development community.</p>
+        </a>
+    </div>
+
+    <a href="https://github.com/sbgmodloader" class="github-link">View on GitHub</a>
+
+    <footer>
+        <p>Made with ❤️ by the Super Battle Golf modding community</p>
+        <p>Open source • Free forever • Community-driven</p>
+    </footer>
+</body>
+</html>
